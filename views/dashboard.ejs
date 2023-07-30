@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Dashboard, <%= user.username %>!</h1>
+    <p>Your user ID: <%= user.username %></p>
+
+    <!-- 로그아웃 버튼 -->
+    <form action="/index.html" method="get">
+      <button type="submit">Logout</button>
+    </form>
+  </div>
+
+  <!-- 프론트엔드 스크립트 -->
+  <script src="/frontend.js"></script>
+</body>
+</html>
